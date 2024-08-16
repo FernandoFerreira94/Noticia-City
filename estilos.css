@@ -1,0 +1,137 @@
+div {
+  border: 1px red solid;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: #fff url(..//imagens/fundo.png) repeat-x;
+}
+
+#imgBrasil {
+  background: url(..//imagens/detalhe-topo.png) no-repeat right;
+  height: 180px;
+}
+
+#cabecalho {
+  width: 850px;
+}
+#cabecalho .imgLogo {
+  width: 170px;
+}
+#cabecalho ul {
+  background-color: rgb(209, 28, 28);
+  border-radius: 5px;
+  margin-right: 22px;
+}
+#cabecalho ul a {
+  color: white;
+  font-size: 15px;
+}
+#cabecalho ul a:hover {
+  color: black;
+  background-color: rgb(190, 28, 28);
+}
+
+#main {
+  width: 800px;
+}
+#main h5 {
+  font-weight: 600;
+  margin-right: 10px;
+  padding-left: 10px;
+  color: #fff;
+  background-image: url(..//imagens/fundo.png);
+}
+#main .contentMid a:hover {
+  font-weight: 600;
+}
+#main .contentMid img {
+  width: 97%;
+  position: relative;
+  top: -10px;
+}
+#main .contentMid .contentCity {
+  border-bottom: 1px black solid;
+}
+#main .contentMid .contentCity div {
+  margin-bottom: 8px;
+  background-color: #E9EEF6;
+}
+#main .contentMid .contentCity a {
+  text-decoration: none;
+  margin-left: 5px;
+  display: block;
+}
+#main .contentMid .contentCity img {
+  width: 90px;
+  float: left;
+  top: 0px;
+  height: 90px;
+  margin-right: 5px;
+}
+#main .contentMid .texto {
+  float: right;
+  background-color: #E9EEF6;
+}
+#main .contentMid .tituloMid {
+  color: black;
+  background-color: rgb(207, 2, 2);
+  font-weight: bold;
+  padding-left: 5px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+#main .contentStart ul {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #E9EEF6;
+}
+#main .contentStart ul a {
+  font-size: 1.1em;
+  padding-left: 10px;
+}
+#main .contentStart ul a::after {
+  content: "";
+  width: 0px;
+}
+#main .contentStart ul a:hover {
+  font-weight: 1000;
+}
+#main .contentEnd {
+  border-bottom: 1px black solid;
+}
+#main .contentEnd .tituloEnd {
+  color: white;
+  background-color: rgb(207, 2, 2);
+  font-weight: bold;
+  padding-left: 5px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+#main .contentEnd a:hover {
+  font-weight: 600;
+}
+#main .contentEnd img {
+  width: 97%;
+  position: relative;
+  top: -10px;
+}
+#main .contentEnd p {
+  background-color: #E9EEF6;
+}
+#main .contentEnd div {
+  margin-bottom: 8px;
+  background-color: #E9EEF6;
+}
+#main .contentEnd a {
+  text-decoration: none;
+  margin-left: 5px;
+  display: block;
+}
+#main .contentEnd .imgNoticia {
+  width: 90px;
+  float: left;
+  top: 0px;
+  height: 85px;
+  margin-right: 5px;
+}
